@@ -1,4 +1,4 @@
-const capitalize = require("../src/capitalize");
+import capitalize from "../src/capitalize";
 
 it("Capitalizes first letter", () => {
     expect(capitalize("hello")).toBe("Hello")

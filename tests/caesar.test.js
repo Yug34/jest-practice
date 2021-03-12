@@ -1,4 +1,4 @@
-const caesar = require("../src/caesar");
+import caesar from "../src/caesar";
 
 it('Works with a key', () => {
     expect(caesar("abc", 4)).toBe("efg");

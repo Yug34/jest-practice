@@ -5,4 +5,4 @@ const reverseString = (s) => {
     return !s.length ? '' : s.split("").reverse().join("");
 }
 
-module.exports = reverseString;
+export default reverseString;

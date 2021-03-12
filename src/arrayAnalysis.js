@@ -34,4 +34,4 @@ const arrayAnalysis = (array) => {
     }
 }
 
-module.exports = arrayAnalysis;
+export default arrayAnalysis;

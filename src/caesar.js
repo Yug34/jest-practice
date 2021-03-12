@@ -30,4 +30,4 @@ const caesar = (s, k) => {
     }
 }
 
-module.exports = caesar;
+export default caesar;
